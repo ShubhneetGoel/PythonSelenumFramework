@@ -1,0 +1,13 @@
+2020-03-30 17:11:40,655 :INFO :test_abTesting :Given h3 text is A/B Test Variation 1
+2020-03-30 17:12:35,972 :INFO :test_abTesting :Given h3 text is A/B Test Control
+2020-03-30 17:17:32,064 :INFO :test_abTesting :Given h3 text is A/B Test Variation 1
+2020-03-30 17:31:02,250 :INFO :test_abTesting :Given h3 text is A/B Test Control
+2020-03-30 17:40:07,188 :INFO :test_abTesting :Given h3 text is A/B Test Variation 1
+2020-03-30 17:41:28,281 :INFO :test_abTesting :Given h3 text is A/B Test Control
+2020-03-30 17:44:08,148 :INFO :test_abTesting :Given h3 text is A/B Test Control
+2020-03-30 19:15:00,723 :ERROR :test_BrokenImages :The image link is not workinghttps://the-internet.herokuapp.com/asdf.jpg
+2020-03-30 19:15:01,952 :ERROR :test_BrokenImages :The image link is not workinghttps://the-internet.herokuapp.com/hjkl.jpg
+2020-03-30 19:16:40,799 :ERROR :test_BrokenImages :The image link is not working https://the-internet.herokuapp.com/asdf.jpg
+2020-03-30 19:16:42,511 :ERROR :test_BrokenImages :The image link is not working https://the-internet.herokuapp.com/hjkl.jpg
+2020-03-30 19:34:11,820 :ERROR :test_BrokenImages :The image link is not working https://the-internet.herokuapp.com/asdf.jpg
+2020-03-30 19:34:13,049 :ERROR :test_BrokenImages :The image link is not working https://the-internet.herokuapp.com/hjkl.jpg
