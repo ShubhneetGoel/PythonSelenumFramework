@@ -11,3 +11,6 @@
 2020-03-30 19:16:42,511 :ERROR :test_BrokenImages :The image link is not working https://the-internet.herokuapp.com/hjkl.jpg
 2020-03-30 19:34:11,820 :ERROR :test_BrokenImages :The image link is not working https://the-internet.herokuapp.com/asdf.jpg
 2020-03-30 19:34:13,049 :ERROR :test_BrokenImages :The image link is not working https://the-internet.herokuapp.com/hjkl.jpg
+2020-03-30 20:16:13,062 :INFO :test_abTesting :Given h3 text is A/B Test Variation 1
+2020-03-30 20:16:39,279 :ERROR :test_BrokenImages :The image link is not working https://the-internet.herokuapp.com/asdf.jpg
+2020-03-30 20:16:40,693 :ERROR :test_BrokenImages :The image link is not working https://the-internet.herokuapp.com/hjkl.jpg

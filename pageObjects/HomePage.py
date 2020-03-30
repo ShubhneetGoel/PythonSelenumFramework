@@ -5,6 +5,7 @@ from pageObjects.ABTesting import ABTesting
 from pageObjects.AddRemoveElements import AddRemoveElements
 from pageObjects.BasicAuthPage import BasicAuthPage
 from pageObjects.BrokenImages import BrokenImages
+from pageObjects.ChallengingDOM import ChallengingDOM
 
 
 class HomePage:
@@ -13,6 +14,7 @@ class HomePage:
     AddRemoveLink = (By.LINK_TEXT, "Add/Remove Elements")
     BasicAuthLink = (By.LINK_TEXT, "Basic Auth")
     BrokenImagesLink = (By.LINK_TEXT, "Broken Images")
+    ChallengingDOMLink = (By.LINK_TEXT, "Challenging DOM")
 
     def __init__(self, driver):
         self.driver = driver
@@ -40,3 +42,8 @@ class HomePage:
         self.driver.find_element(*HomePage.BrokenImagesLink).click()
         BrokenImagesInst = BrokenImages(self.driver)
         return BrokenImagesInst
+
+    def returnChallengingDOM(self):
+        self.driver.find_element(*HomePage.ChallengingDOMLink).click()
+        ChallengingDOMInst = ChallengingDOM(self.driver)
+        return ChallengingDOMInst
